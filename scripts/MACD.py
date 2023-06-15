@@ -1,6 +1,6 @@
 from .EMA import generate_ema
 
-def generate_ema(input_data: list, short_interval: int,  long_interval: int, x_axis: str, y_axis: str, inplace: bool ) -> list :
+def generate_macd(input_data: list, short_interval: int,  long_interval: int, x_axis: str, y_axis: str, inplace: bool ) -> list :
 
     data = input_data[:] if not inplace else input_data
     data = sorted(input_data, key=lambda d: d[y_axis])
