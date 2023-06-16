@@ -2,7 +2,7 @@
 name = "StockUtils"
 version = "0.0.1"
 authors = [
-  { name="John Doe", email="John@Doe" },
+  { name="John Doe", email="John@Doe.com" },
 ]
 description = "A small example package"
 readme = "README.md"
