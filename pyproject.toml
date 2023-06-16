@@ -1,17 +1,9 @@
-[build-system]
-requires = ["setuptools ~= 58.0"]
-
 [project]
 name = "StockUtils"
+version = "0.0.1"
 authors = [
-    {name = "John Doe", email = "john@doe.com"},
+  { name="John Doe", email="John@Doe" },
 ]
-description = "My package description"
-readme = ""
+description = "A small example package"
+readme = "README.md"
 requires-python = ">=3.7"
-
-dependencies = [
-    'importlib-metadata; python_version<"3.8"',
-]
-
-dynamic = ["version"]
