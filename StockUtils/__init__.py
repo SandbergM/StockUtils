@@ -1,5 +1,5 @@
-from nerd_stuff. EMA     import generate_ema
-from nerd_stuff. MACD    import generate_macd
-from nerd_stuff. RSI     import generate_rsi
-from nerd_stuff. SMA     import generate_sma
-from nerd_stuff. WMA     import generate_wma
+from . EMA     import generate_ema
+from . MACD    import generate_macd
+from . RSI     import generate_rsi
+from . SMA     import generate_sma
+from . WMA     import generate_wma
